@@ -1,0 +1,60 @@
+
+.background{
+    background: url("../images/birds-cold-conifer-917494.jpg") no-repeat center;
+            
+            background-size: cover;
+            text-align: -webkit-left;
+            -webkit-background-size: cover;
+            height: 600px;
+            width: 100%;
+    }
+    .box{
+        
+        height: 400px;
+        width: 350px;
+        margin: 71px 141px;
+        background-color: white;
+        border-radius: 8px;
+        
+    }
+    .btn{
+        margin-left: -270px;
+        margin-top: 130px;
+    }
+
+    .name{
+        color: rgb(105, 100, 105);
+        font-size: 45px;
+        font-family: 'Montserrat', sans-serif;
+        margin-left: 40px;
+        padding: 15px;
+    }
+    .links{
+         color: rgb(105, 100, 105);
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+        margin-right: 35px;
+        margin-top: -50px;
+        text-align: right;
+        text-decoration: none;
+
+
+    }
+    #github{
+        color: rgb(105, 100, 105);
+        margin-right: 50px;
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+    }
+    #LinkedIn{
+        color: rgb(105, 100, 105);
+        margin-right: 55px;
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+    }
+    #contact{
+        color: rgb(105, 100, 105);
+        font-family: 'Montserrat', sans-serif;
+        margin-right: 60px;
+        text-decoration: none;
+    }
