@@ -16,6 +16,7 @@
         background-color: white;
         border-radius: 8px;
         
+        
     }
     .btn{
         margin-left: -270px;
@@ -34,7 +35,7 @@
         font-size: 20px;
         font-family: 'Montserrat', sans-serif;
         margin-right: 35px;
-        margin-top: -50px;
+        margin-top: -60px;
         text-align: right;
         text-decoration: none;
 
@@ -58,3 +59,26 @@
         margin-right: 60px;
         text-decoration: none;
     }
+
+    .card{
+        height: 180px;
+        width: 180px;
+       box-shadow: 12px grey;
+    }
+
+    footer {
+        clear: both;
+   position: inherit;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background: url("../images/black-background-bulb-close-up-716398.jpg");
+   /* background-size: contain; */
+   text-align: c-webkit-left;
+   margin-top: 400px;
+   height: 200px;
+   color: white;
+}
+.info{
+    padding: 15px;
+}
