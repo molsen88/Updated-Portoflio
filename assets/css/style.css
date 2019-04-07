@@ -11,10 +11,8 @@
 
     .navbar{
         background-color: #282828;
-        opacity: 0.1;
-        filter: alpha(opacity=80);
-
-    }
+        
+        }
 
     .box{
         height: 400px;
@@ -98,26 +96,32 @@ h3 {
     blink-caret .75s step-end infinite;
 }
 
-/* The typing effect */
+
 @keyframes typing {
   from { width: 0 }
   to { width: 100% }
 }
 
-/* The typewriter cursor effect */
+
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: white; }
 }
+/* typewriter */
 
-
-    h4{
-        text-decoration: underline;
+h4{
+        /* text-decoration: underline; */
+        color: white;
+        font-family: 'Montserrat', sans-serif;
     }
-    p{
+ p{
         color: gray;
+        font-size: 14px;
+        font-family: 'Montserrat', sans-serif;
     }
     
+    
+
 
     footer {
         clear: both;
@@ -133,6 +137,7 @@ h3 {
    font-size: 14px;
    color: white;
 }
+
 
 
 
