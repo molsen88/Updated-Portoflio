@@ -5,80 +5,135 @@
             background-size: cover;
             text-align: -webkit-left;
             -webkit-background-size: cover;
-            height: 600px;
+            height: 700px;
             width: 100%;
     }
+
+    .navbar{
+        background-color: #282828;
+        opacity: 0.1;
+        filter: alpha(opacity=80);
+
+    }
+
     .box{
-        
         height: 400px;
         width: 350px;
         margin: 71px 141px;
         background-color: white;
-        border-radius: 8px;
-        
-        
+        border-radius: 8px;    
     }
+
     .btn{
         margin-left: -270px;
         margin-top: 130px;
     }
+    #quote{
+        color: white;
+        font-size: 24px;
+        text-align: right;
+        /* margin-right: 250px; */
+        margin-top: -40px;
+    }
 
     .name{
-        color: rgb(105, 100, 105);
+        color:  white;
         font-size: 45px;
         font-family: 'Montserrat', sans-serif;
         margin-left: 40px;
-        padding: 15px;
+        
     }
+
     .links{
-         color: rgb(105, 100, 105);
+         
         font-size: 20px;
         font-family: 'Montserrat', sans-serif;
         margin-right: 35px;
         margin-top: -60px;
         text-align: right;
         text-decoration: none;
-
-
     }
+
     #github{
-        color: rgb(105, 100, 105);
+        color: #C2CAD0;
         margin-right: 50px;
         text-decoration: none;
         font-family: 'Montserrat', sans-serif;
     }
+
     #LinkedIn{
-        color: rgb(105, 100, 105);
+        color:  white;
         margin-right: 55px;
         text-decoration: none;
         font-family: 'Montserrat', sans-serif;
     }
+
     #contact{
-        color: rgb(105, 100, 105);
+        color: #C2CAD0;
         font-family: 'Montserrat', sans-serif;
         margin-right: 60px;
         text-decoration: none;
     }
 
-    .card{
-        height: 180px;
-        width: 180px;
-       box-shadow: 12px grey;
+    #quote {
+    color: white;
+    font-size: 24px;
+    text-align: right;
+    margin-right: 205px;
+    margin-top: -100px;
+}
+h3 {
+    color: white;
+    font-size: 24px;
+    text-align: right;
+    margin-right: 205px;
+    margin-top: -100px;
+  overflow: hidden; 
+  border-right: .15em solid gray; 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .08em; 
+  animation: 
+    typing 4.0s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white; }
+}
+
+
+    h4{
+        text-decoration: underline;
     }
+    p{
+        color: gray;
+    }
+    
 
     footer {
         clear: both;
    position: inherit;
    left: 0;
-   bottom: 0;
+   bottom: 0px;
+   height: 250px;
    width: 100%;
    background: url("../images/black-background-bulb-close-up-716398.jpg");
    /* background-size: contain; */
    text-align: c-webkit-left;
-   margin-top: 400px;
-   height: 200px;
+   margin-top: 600px;
+   font-size: 14px;
    color: white;
 }
-.info{
-    padding: 15px;
-}
+
+
+
+

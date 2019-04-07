@@ -17,7 +17,10 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
         <link type="text/css" rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' -->
+        <!-- integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'> -->
         <!--Let browser know website is optimized for mobile-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     </head>
@@ -26,13 +29,16 @@
 
         <section>
             <div class="background" id="image-one">
-                <div class="name">Michael Olsen Portfolio</div>
-                <div class="links">
-                    <a href="https://github.com/molsen88" id="contact">Contact</a>
-                    <a href="https://github.com/molsen88" target="_blank" id="github">Github</a>
-                    <a href="https://www.linkedin.com/in/michael-olsen-69204516a/" target="_blank"
-                        id="LinkedIn">LinkedIn</a>
-                </div>
+                <nav class="navbar">
+                    <div class="name">Michael Olsen Portfolio</div>
+                    <div class="links">
+                        <a href="https://github.com/molsen88" id="contact">Contact</a>
+                        <a href="https://github.com/molsen88" target="_blank" id="github">Github
+                            <i class="fa fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/michael-olsen-69204516a/" target="_blank"
+                            id="LinkedIn">LinkedIn <i class="fa fa-linkedin-square"></i></a>
+                    </div>
+                </nav>
                 <div class="box" id="input-form">
                     <div class="row">
                         <form class="col s12">
@@ -74,78 +80,60 @@
                                 </div>
                             </div>
                         </form>
+
                     </div>
                 </div>
             </div>
+
+            <div id="quote">
+                <h3>“Talk is cheap. Show me the code.”
+                    ― Linus Torvalds</h3>
+            </div>
+
         </section>
+
         <br>
         <br>
         <br>
         <section>
             <div class="row">
-                <div class="col s4 ">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="./assets/images/IMG_2433.JPG">
-                            <span class="card-title">About Michael</span>
-                        </div>
-                        <div class="card-content">
-                            <p>I am a very simple card. I am good at containing small bits of information.
-                                I am convenient because I require little markup to use effectively.</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="#">This is a link</a>
-                        </div>
+                <div class="col s4">
+                    <div id="current"><i class='fas fa-chalkboard-teacher'></i>
                     </div>
                 </div>
-                <div class="col s4 ">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="./assets/images/IMG_2433.JPG">
-                            <span class="card-title">About Michael</span>
-                        </div>
-                        <div class="card-content">
-                            <p>I am a very simple card. I am good at containing small bits of information.
-                                I am convenient because I require little markup to use effectively.</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="#">This is a link</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col s4 ">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="images/sample-1.jpg">
-                            <span class="card-title">Card Title</span>
-                        </div>
-                        <div class="card-content">
-                            <p>I am a very simple card. I am good at containing small bits of information.
-                                I am convenient because I require little markup to use effectively.</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="#">This is a link</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            </div>
 
 
 
         </section>
 
+        <footer class="row">
 
 
-        <footer>
-            <div class="bottom-footer">
-                <div class="info">
-                    <h4>Contact Information</h4>
-                    <p>801-556-8357</p>
-                    <p>Email: michael.olsen@jordandistrict.org</p>
+            <div class="col s4" id="info">
+                <h4>Contact Info</h4>
+                <p>801-556-8357</p>
+                <p>Email: michael.olsen@jordandistrict.org</p>
 
-                </div>
+            </div>
+            <div class="col s4" id="projects">
+                <h4>Projects</h4>
+                <p>Crystal Collector</p>
+                <p>Trivia Game</p>
+                <p>Sports Gifs</p>
+                <p>The Adventure Setter</p>
+                <p>Word Guess Game</p>
+            </div>
+            <div class="col s4" id="connect">
+                <h4>Connect</h4>
+                <a href="https://www.linkedin.com/in/michael-olsen-69204516a/" target="_blank" id="LinkedIn">
+                    <i class="fa fa-linkedin-square" style="font-size: 42px; color: gray"></i></a>
+
+                <a href="https://github.com/molsen88" target="_blank" id="github">
+                    <i class="fa fa-github" style="font-size:42px;color:gray"></i></a>
+
+                <i class="fa fa-facebook-square" style="font-size:36px;color:gray"></i>
+
+            </div>
             </div>
         </footer>
         <!--JavaScript at end of body for optimized loading-->
@@ -159,4 +147,8 @@
     <a class="carousel-item" href="#three!"><img src="https://lorempixel.com/250/250/nature/3"></a>
     <a class="carousel-item" href="#four!"><img src="https://lorempixel.com/250/250/nature/4"></a>
     <a class="carousel-item" href="#five!"><img src="https://lorempixel.com/250/250/nature/5"></a>
+</div> -->
+<!-- <div id="quote">
+    “Talk is cheap. Show me the code.”
+    ― Linus Torvalds
 </div> -->
