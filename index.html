@@ -13,14 +13,15 @@
         <!--Import Google Icon Font-->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <!--Import materialize.css-->
-        <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
         <link type="text/css" rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
         <link rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <!-- <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' -->
-        <!-- integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'> -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <!-- <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" /> -->
+
         <!--Let browser know website is optimized for mobile-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     </head>
@@ -29,16 +30,17 @@
 
         <section>
             <div class="background" id="image-one">
-                <nav class="navbar">
-                    <div class="name">Michael Olsen Portfolio</div>
+                <div class="navbar">
+                    <div class="name">Michael Olsen</div>
                     <div class="links">
                         <a href="https://github.com/molsen88" id="contact">Contact</a>
                         <a href="https://github.com/molsen88" target="_blank" id="github">Github
                             <i class="fa fa-github"></i></a>
-                        <a href="https://www.linkedin.com/in/michael-olsen-69204516a/" target="_blank"
-                            id="LinkedIn">LinkedIn <i class="fa fa-linkedin-square"></i></a>
+                        <a href="https://www.linkedin.com/in/michael-olsen-69204516a" target="_blank"
+                            id="LinkedIn">LinkedIn
+                            <i class="fa fa-linkedin-square"></i></a>
                     </div>
-                </nav>
+                </div>
                 <div class="box" id="input-form">
                     <div class="row">
                         <form class="col s12">
@@ -81,6 +83,7 @@
                             </div>
                         </form>
 
+
                     </div>
                 </div>
             </div>
@@ -89,32 +92,74 @@
                 <h3>“Talk is cheap. Show me the code.”
                     ― Linus Torvalds</h3>
             </div>
-
         </section>
-
-        <br>
-        <br>
         <br>
         <section>
             <div class="row">
-                <div class="col s4">
-                    <div id="current"><i class='fas fa-chalkboard-teacher'></i>
+                <h1>Welcome to my portolfio</h1>
+                <p id="opening">
+                    Thank you for visiting my portfolio. I am currently a 5th grade teacher in the Jordan<br>
+                    School District working in South Jordan. I am also pursuing full stack development<br>
+                    in coding. View the carousel below to see my interests and click on any photo<br>
+                    to see completed or current projects.</p>
+            </div>
+        </section>
+        <hr>
+        <section>
+            <div class="row">
+                <!-- <div class="col m6">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="./assets/images/IMG_2433.JPG">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">About Me<i
+                                    class="material-icons right">more_vert</i></span>
+
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Hello!<i
+                                    class="material-icons right">close</i></span>
+                            <ul>
+                                <li>I was born in Salt Lake City, Utah</li><br>
+                                <li>Graduated from Brighton High School in 2002</li><br>
+                                <li>Bachelors degree in Political Science</li><br>
+                                <li>Masters degree in Elementary Education</li><br>
+                                <li>5th grade teacher in Jordan School District for 11 years</li>
+                            </ul>
+                        </div>
                     </div>
+                </div> -->
+                <!-- <div class="col m6"> -->
+                <!-- <h5 id="carousel-titles">Interests and Projects</h5> -->
+                <div class="carousel">
+                    <a class="carousel-item" href="https://molsen88.github.io/unit-4-game/" target="_blank"><img
+                            id="photos" src="./assets/images/wc1686693-liverpool-wallpaper-2016.jpg"></a>
+                    <a class="carousel-item" href="https://molsen88.github.io/TriviaGame/" target="_blank"><img
+                            id="photos" src="./assets/images/road bike.jpeg"></a>
+                    <a class="carousel-item" href="https://molsen88.github.io/Giphy-Homework/" target="_blank"><img
+                            id="photos" src="./assets/images/geert-pieters-588258-unsplash.jpg"></a>
+                    <a class="carousel-item" href="https://emssslay.github.io/travel-project/" target="_blank"><img
+                            id="photos" src="./assets/images/kenny-webster-559402-unsplash.jpg"></a>
+                    <a class="carousel-item" href="https://molsen88.github.io/Physic-Game/" target="_blank"><img
+                            id="photos" src="./assets/images/joao-silas-51725-unsplash.jpg"></a>
                 </div>
-
-
-
+            </div>
+            </div>
         </section>
 
+
+
+
+
         <footer class="row">
-
-
             <div class="col s4" id="info">
                 <h4>Contact Info</h4>
                 <p>801-556-8357</p>
                 <p>Email: michael.olsen@jordandistrict.org</p>
-
+                <p>Resume</p>
             </div>
+
             <div class="col s4" id="projects">
                 <h4>Projects</h4>
                 <a href="https://molsen88.github.io/unit-4-game/" target="_blank">
@@ -132,32 +177,25 @@
                         <p>Phsycic Game</p>
                     </a>
             </div>
+
             <div class="col s4" id="connect">
                 <h4>Connect</h4>
                 <a href="https://www.linkedin.com/in/michael-olsen-69204516a/" target="_blank" id="LinkedIn">
-                    <i class="fa fa-linkedin-square" style="font-size: 42px; color: gray"></i></a>
+                    <i class="fa fa-linkedin-square" style="font-size: 48px; color: gray"></i></a>
 
                 <a href="https://github.com/molsen88" target="_blank" id="github">
-                    <i class="fa fa-github" style="font-size:42px;color:gray"></i></a>
+                    <i class="fa fa-github" style="font-size:48px;color:gray"></i></a>
 
-                <i class="fa fa-facebook-square" style="font-size:36px;color:gray"></i>
+                <i class="fa fa-facebook-square" style="font-size:48px;color:gray"></i>
 
             </div>
-            </div>
+
         </footer>
-        <!--JavaScript at end of body for optimized loading-->
-        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <!-- JavaScript at end of body for optimized loading -->
+
+        <!--  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
+
+        <script src="assets/javascript/script.js"></script>
     </body>
 
 </html>
-<!-- <div class="carousel">
-    <a class="carousel-item" href="#one!"><img src="https://lorempixel.com/250/250/nature/1"></a>
-    <a class="carousel-item" href="#two!"><img src="https://lorempixel.com/250/250/nature/2"></a>
-    <a class="carousel-item" href="#three!"><img src="https://lorempixel.com/250/250/nature/3"></a>
-    <a class="carousel-item" href="#four!"><img src="https://lorempixel.com/250/250/nature/4"></a>
-    <a class="carousel-item" href="#five!"><img src="https://lorempixel.com/250/250/nature/5"></a>
-</div> -->
-<!-- <div id="quote">
-    “Talk is cheap. Show me the code.”
-    ― Linus Torvalds
-</div> -->

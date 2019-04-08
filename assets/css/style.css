@@ -1,23 +1,18 @@
 
-.background{
-    background: url("../images/birds-cold-conifer-917494.jpg") no-repeat center;
-            
-            background-size: cover;
-            text-align: -webkit-left;
-            -webkit-background-size: cover;
-            height: 700px;
-            width: 100%;
-    }
 
-    .navbar{
-        background-color: #282828;
-        
-        }
+.background{
+        background: url("../images/4k-wallpaper-clouds-dawn-1261728.jpg") no-repeat center;
+        background-size: cover;
+        text-align: -webkit-left;
+        -webkit-background-size: cover;
+        height: 700px;
+        width: 100%;
+    }
 
     .box{
         height: 400px;
         width: 350px;
-        margin: 71px 141px;
+        margin: 115px 141px;
         background-color: white;
         border-radius: 8px;    
     }
@@ -25,75 +20,68 @@
     .btn{
         margin-left: -270px;
         margin-top: 130px;
+        position: fixed;
     }
-    #quote{
-        color: white;
-        font-size: 24px;
-        text-align: right;
-        /* margin-right: 250px; */
-        margin-top: -40px;
-    }
-
     .name{
-        color:  white;
+        color: white;
         font-size: 45px;
         font-family: 'Montserrat', sans-serif;
         margin-left: 40px;
-        
-    }
-
+        }
+    
     .links{
          
         font-size: 20px;
         font-family: 'Montserrat', sans-serif;
         margin-right: 35px;
-        margin-top: -60px;
+        margin-top: -40px;
         text-align: right;
         text-decoration: none;
     }
+    
 
     #github{
-        color: #C2CAD0;
+        color: white;
         margin-right: 50px;
         text-decoration: none;
         font-family: 'Montserrat', sans-serif;
     }
 
     #LinkedIn{
-        color:  white;
+        color: white;
         margin-right: 55px;
         text-decoration: none;
         font-family: 'Montserrat', sans-serif;
     }
 
     #contact{
-        color: #C2CAD0;
+        color: white;
         font-family: 'Montserrat', sans-serif;
         margin-right: 60px;
         text-decoration: none;
     }
 
     #quote {
-    color: white;
-    font-size: 24px;
-    text-align: right;
-    margin-right: 205px;
-    margin-top: -100px;
+        color: white;
+        font-size: 24px;
+        text-align: right;
+        margin-right: 205px;
+        margin-top: -100px;
 }
-h3 {
-    color: white;
-    font-size: 24px;
-    text-align: right;
-    margin-right: 205px;
-    margin-top: -100px;
-  overflow: hidden; 
-  border-right: .15em solid gray; 
-  white-space: nowrap; 
-  margin: 0 auto; 
-  letter-spacing: .08em; 
-  animation: 
-    typing 4.0s steps(40, end),
-    blink-caret .75s step-end infinite;
+    h3 {
+        color: white;
+        font-size: 24px;
+        text-align: right;
+        margin-right: 205px;
+        margin-top: -100px;
+        overflow: hidden; 
+        border-right: .15em solid gray; 
+        white-space: nowrap; 
+        margin: 0 auto; 
+        letter-spacing: .07em; 
+        animation: 
+         typing 4.0s steps(40, end),
+        blink-caret .75s step-end infinite;
 }
 
 
@@ -109,33 +97,65 @@ h3 {
 }
 /* typewriter */
 
-h4{
+    h1{
+        text-align: center;
+        font-size: 44px;
+}
+    #opening{
+        text-align: center;
+        font-size: 20px;
+        /* color: black; */
+}
+
+    h4{
         /* text-decoration: underline; */
         color: white;
         font-family: 'Montserrat', sans-serif;
-    }
- p{
+}
+
+    p{
         color: gray;
         font-size: 14px;
         font-family: 'Montserrat', sans-serif;
     }
     
+    hr{
+        margin: 5px 520px 80px 520px;
+    }
+    .card{
+        height: 400px;
+        width: 250px;
+        margin-left: 200px;
+    }
+    .card-image{
+        height: 300px;
+        width: 250px;
+    }
+    h5{
+        text-align: center;
+        
+    }
+     #photos{
+        height: 300px;
+        width: 240px;
+        
+    }
     
-
-
+    
     footer {
         clear: both;
-   position: inherit;
-   left: 0;
-   bottom: 0px;
-   height: 250px;
-   width: 100%;
-   background: url("../images/black-background-bulb-close-up-716398.jpg");
-   /* background-size: contain; */
-   text-align: c-webkit-left;
-   margin-top: 600px;
-   font-size: 14px;
-   color: white;
+        position: static;
+        left: 0;
+        bottom: 0px;
+        height: 250px;
+        width: 100%;
+        margin-top: 200px;
+        background: url("../images/black-background-bulb-close-up-716398.jpg");
+        /* background-size: contain; */
+        text-align: c-webkit-left;
+        /* margin-top: 60px; */
+        font-size: 14px;
+        color: white;
 }
 
 
