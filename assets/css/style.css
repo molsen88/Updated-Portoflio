@@ -80,7 +80,7 @@
         margin: 0 auto; 
         letter-spacing: .04em; 
         animation: 
-         typing 4.0s steps(40, end),
+         typing 5.0s steps(40, end),
         blink-caret .75s step-end infinite;
 }
 
@@ -107,7 +107,7 @@
         /* color: black; */
 }
 
-    h4{
+    h3{
         /* text-decoration: underline; */
         color: white;
         font-family: 'Montserrat', sans-serif;
@@ -120,9 +120,10 @@
     }
     
     hr{
-        margin: 5px 520px 80px 520px;
+        margin: 5px 520px 20px 520px;
     }
-    .card{
+    /* optional card */
+    /* .card{
         height: 400px;
         width: 250px;
         margin-left: 200px;
@@ -130,11 +131,11 @@
     .card-image{
         height: 300px;
         width: 250px;
-    }
+    } */
     
      #photos{
-        height: 300px;
-        width: 240px;
+        height: 320px;
+        width: 260px;
         
     }
     
