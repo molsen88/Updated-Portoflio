@@ -104,7 +104,7 @@
     #opening{
         text-align: center;
         font-size: 20px;
-        /* color: black; */
+       
 }
 
     h3{
@@ -134,11 +134,10 @@
     } */
     
      #photos{
-        height: 320px;
-        width: 260px;
+        height: 360px;
+        width: 300px;
         
     }
-    
     
     footer {
         clear: both;
