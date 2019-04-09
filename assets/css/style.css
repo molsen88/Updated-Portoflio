@@ -122,22 +122,18 @@
     hr{
         margin: 5px 520px 20px 520px;
     }
-    /* optional card */
-    /* .card{
-        height: 400px;
-        width: 250px;
-        margin-left: 200px;
+    .collapsible{
+        width: 80%;
+        
+        
     }
-    .card-image{
-        height: 300px;
-        width: 250px;
-    } */
+
     
      #photos{
         height: 360px;
         width: 300px;
-        
     }
+    
     
     footer {
         clear: both;
