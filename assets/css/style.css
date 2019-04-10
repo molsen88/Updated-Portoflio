@@ -152,6 +152,45 @@
 }
 
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+    .background{
+        height: auto;
+        width: auto;
+    }
+    .links{
+        margin-top: 40px;
+        margin-left: 40px;
+        font-size: 14px;
+    }
+    #quote{
+        display: none;
+    }
+    .box{
+        display: none;
+    }
+    #projects{
+        display: none;
+    }
+    #connect{
+        margin-left: 90px;
+    }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {...}  */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {...}  */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {...}  */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...} */
+
+
 
 
 
